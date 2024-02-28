@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: #f0f0f0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+    background-color: #fff;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info__logo {
+    width: 20%;
+}
+
+.info__ul {
+    display: flex;
+    width: 53%;
+    flex-direction: row;
+    margin-left: 146px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.info__li {
+    padding-right: 20px;
+}
+
+.a_enlaces {
+    color: black;
+
+}
+
+.menu__icon {
+    padding: 4px;
+    display: flex;
+    cursor: pointer;
+    width: 50px;
+    background-color: rgb(147, 195, 75);
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.menu__text {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.menu__line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.nav__ul {
+    text-transform: uppercase;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.menu__line {
+    background-color: white;
+}
+
+
+
+.menu-general {
+    display: flex;
+    flex: start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.span__menu {
+    padding-left: 30px;
+    font-size: smaller;
+    color: gray;
+}
+
+.span__menu--verde {
+    color: rgb(147, 195, 75);
+    font-weight: 700;
+
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.menu__item {
+    background-color: rgb(147, 195, 75);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.selector {
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.galeria__item {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.galeria__item img {
+    width: 100%;
+    height: auto;
+}
+
+.item__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item__precio {
+    font-weight: 700;
+    font-size: xx-large;
+    color: rgb(147, 195, 75);
+
+}
+
+.item__btn {
+    background-color: transparent;
+    border: 2px solid rgb(147, 195, 75);
+    color: rgb(147, 195, 75);
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+
+.ofertas__viaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    justify-content: center;
+}
+
+.oferta__ficha {
+    padding: 10px;
+    background-color: white;
+    width: 797px;
+
+}
+
+.oferta__titular {
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.oferta__p {
+    color: rgb(178, 177, 177);
+    font-size: small;
+}
+
+.iconos {
+    gap: 0;
+    padding: 0;
+    height: 300px;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 233px;
+    border-top: 1px solid;
+    margin-top: 50px;
+}
+
+
+.icono {
+    align-items: center;
+    pad: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border-right: 1px solid;
+}
+
+.icono--final {
+    align-items: center;
+    pad: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border-right: 1px transparent;
+}
+
+.material-symbols-outlined {
+    color: rgb(147, 195, 75);
+    font-size: 56px;
+
+
+}
+
+.icono__text {
+    color: gray;
+
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+
+.banner {
+    height: 200px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__img {
+    width: 70%;
+}
+
+
+
+.footer {
+    height: 400px;
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__fila {
+    padding: 10px;
+
+}
+
+.footer__h1 {
+    color: rgb(147, 195, 75);
+    font-size: x-large;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer__ul {
+    color: gray;
+}
+
+.footer__fila-final {
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.footer__ul {
+    padding: 10px;
+}
+
+.footer__ul li {
+    margin-bottom: 8px;
+}

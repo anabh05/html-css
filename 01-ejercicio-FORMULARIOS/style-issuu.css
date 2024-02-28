@@ -1,0 +1,54 @@
+.logo{
+
+    padding:right;
+    width: 100px;
+
+
+}
+.usuario{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    margin-left:90%;
+}
+
+.unete{
+    display: flex;
+    margin-top:5px;
+    margin-left:none;
+   
+}
+.titular{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.u-g{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:small;
+    text-decoration: none;
+}
+.boton-google{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+
+}
+.boton-facebook{
+    display: flex;
+    background-color:blue;
+    width:200px;
+    height:40px;
+
+}
+a {
+    text-decoration: none;
+}
+
+.u-f{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:small;
+}

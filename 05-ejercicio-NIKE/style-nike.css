@@ -1,0 +1,48 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.ficha {
+    display: flex;
+    width: 28%;
+    flex-wrap: wrap;
+    padding: 26px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+
+
+}
+
+.img {
+    width: 100%;
+
+}
+
+.rojo {
+    color: red;
+
+}
+
+.titulo {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.grey {
+    color: darkgrey;
+    margin-top: 0;
+}
+
+.precio {
+    margin-top: 0;
+}
